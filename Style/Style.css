@@ -197,4 +197,29 @@ footer div p{
         grid-template-columns: repeat(2,1fr);
         overflow-y: scroll;
     }
+    @media (max-width:400px){
+        .menu_proyectos{
+            width: 75%;
+            height: 300px;
+            background-color: black;
+            position: absolute;
+            top: 25%;
+            left: 12%;
+            border-radius: 15px;
+            box-shadow: 1px 1px 15px #f7df1e;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            overflow-y: scroll;
+        }
+
+        .header-left figure {
+            display:none;
+        }
+
+
+        .list-item p{
+            font-size: 15px;
+            color:red;
+        }
+    };
 };
