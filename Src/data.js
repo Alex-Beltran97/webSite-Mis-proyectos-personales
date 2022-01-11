@@ -62,7 +62,7 @@ export const pages = [
     {
         name:"Página web para parejas.",
         Description:"Aquí podras regalarle un pequeño detalle a tu pareja con una serie de divertidas preguntas y mensajes romanticos.",
-        image:"#",
+        image:"../Style/images/Pagina para parejas.JPGgit",
         url: "https://alex-beltran97.github.io/pagina-hecha-para-parejas/"
     },
 
