@@ -5,22 +5,6 @@ const  exit = document.querySelector(".exit-menu")
 
 import {pages} from "../js/data.js";
 
-pages.map(item=>{
-    const ulItem = document.createElement("ul");
-    const liItem = document.createElement("li");
-    const link = document.createElement("a");
-    const img = document.createElement("img");
-    img.setAttribute("src",item.image);
-    img.setAttribute("title",item.Description);
-    link.setAttribute("href",item.url);
-    link.setAttribute("target","_blank");
-    link.innerHTML = item.name;    
-    liItem.appendChild(img);
-    liItem.appendChild(link);
-    ulItem.appendChild(liItem);
-    menuProjects.appendChild(ulItem);
-})
-
 let openProjects = false;
 
 const showProjects = ()=>{
@@ -44,3 +28,19 @@ if(openProjects==false){
 }
 
 exitProjects.addEventListener("click",leaveProjects);
+
+pages.map(item=>{
+    const ulItem = document.createElement("ul");
+    const liItem = document.createElement("li");
+    const link = document.createElement("a");
+    const img = document.createElement("img");
+    img.setAttribute("src",item.image);
+    img.setAttribute("title",item.Description);
+    link.setAttribute("href",item.url);
+    link.setAttribute("target","_blank");
+    link.innerHTML = item.name;    
+    liItem.appendChild(img);
+    liItem.appendChild(link);
+    ulItem.appendChild(liItem);
+    menuProjects.appendChild(ulItem);
+})
