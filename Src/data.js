@@ -2,7 +2,7 @@ export const pages = [
     {
         name:"Calculadora de área y/o perímetro.",
         Description:"Aquí podras calcular el área y/o el perimetro de un rectangulo conociendo su base y su altura.",
-        image:"../Style/images/calculadora de areas y promedios.JPG",
+        image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fokdiario.com%2Fmascotas%2F5-tipos-ardillas-que-debes-conocer-4432118&psig=AOvVaw1uWTZMzdQAdI1fv-sE7wEm&ust=1642011415757000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKicta6nqvUCFQAAAAAdAAAAABAD",
         url: "https://alex-beltran97.github.io/Calculadora-de-area-y-o-perimetro/"
     },
     {
