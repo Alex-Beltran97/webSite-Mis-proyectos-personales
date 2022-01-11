@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/Style.css">
+    <link rel="icon" href="./Style/Logos/icon tab.png">
     <title>Inicio - Mi portafolio.</title>
+    <style>
+    </style>
 </head>
 <body>
     <main>
@@ -13,25 +16,21 @@
             <div class="header-left">
                 <figure>
                     <a href="/index.html">
-                        <img src="./Logos/home.png" alt="logo">
+                        <img src="./Style/Logos/home.png" alt="logo">
                     </a>
                 </figure>
                 <ul class="menu">
                     <li class="list-item">
-                        <a href="#">Un poco sobre mi</a>
+                        <p>Un poco sobre mi</p>
                     </li>
-                    <li class="list-item">
-                        <a href="#">Proyectos</a>
+                    <p>|</p>
+                    <li class="list-item" id="projects">
+                        <p>Proyectos</p>
                     </li>
-                    <li class="list-item">
-                        <a href="#">Prueba 3</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#">Prueba 4</a>
-                    </li>
-                    <li class="list-item">
-                        <a href="#">Prueba 5</a>
-                    </li>
+                    <div class="menu_proyectos" style="display:none">
+                        
+                    </div>
+                    <p class="exit-menu" style="display: none;">X</p>
                 </ul>
             </div>
             <div class="header-rigth">
@@ -45,6 +44,7 @@
                 </ul>
             </div>
         </header>
+
         <section>
             <div class="content">
                 <h1>Bienvenido</h1>
@@ -60,5 +60,7 @@
             </div>
         </footer>
     </main>
+    <!-- scripts -->
+    <script src="./Src/index.js" type="module"></script>
 </body>
 </html>
