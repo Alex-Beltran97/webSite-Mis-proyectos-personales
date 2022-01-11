@@ -47,6 +47,24 @@ export const pages = [
         image:"../Style/images/Landing page basica.JPG",
         url: "https://alex-beltran97.github.io/pagina_prueba/"
     },
+    {
+        name:"Maqueta de formulartio de registro.",
+        Description:"Aquí podras observar la maqueta de un formulario de registro básico.",
+        image:"../Style/images/Maqueta de formulario.png",
+        url: "https://alex-beltran97.github.io/Formulario-Registro/"
+    },
+    {
+        name:"Reto técnico Sofka: ¿Quíen quiere ser millonario?.",
+        Description:"Aquí podras jugar a quien quiere ser millonario.Diseñado para Sofka.",
+        image:"../Style/images/Sofka.png",
+        url: "https://alex-beltran97.github.io/Reto-tecnico-sofka-2.0/"
+    },
+    {
+        name:"Página web para parejas.",
+        Description:"Aquí podras regalarle un pequeño detalle a tu pareja con una serie de divertidas preguntas y mensajes romanticos.",
+        image:"#",
+        url: "https://alex-beltran97.github.io/pagina-hecha-para-parejas/"
+    },
 
 ];
 
