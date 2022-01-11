@@ -12,11 +12,42 @@ export const pages = [
         url: "https://alex-beltran97.github.io/Presentation-card/"
     },
     {
-        name:"Generador-de-perritos.",
+        name:"Consumiendo una API: Generador de perritos.",
         Description:"Aquí podras generar diferentes imagenes de perritos con tan solo pulsar un botón.",
         image:"../Style/images/Generador de perritos.JPG",
         url: "https://alex-beltran97.github.io/Generador-de-perritos/"
     },
+    {
+        name:"Formulario de registro funcional.",
+        Description:"Aquí podras ingresar tu nombre, apellido y edad para que estos se vean reflejados en pantalla.",
+        image:"../Style/images/Formulario de registro -1.JPG",
+        url: "https://alex-beltran97.github.io/Generador-de-perritos/"
+    },
+    {
+        name:"Page: Error 404 (Not-Found).",
+        Description:"Aquí podras ver una maqueta de como luciria una pagina de Error 404.",
+        image:"../Style/images/Error 404 not found.JPG",
+        url: "https://alex-beltran97.github.io/Alex-Beltran97-Page-Error-404-Not-Found/"
+    },
+    {
+        name:"Landing page, freeCodeCamp.",
+        Description:"Aquí podras ver una maqueta de la landing page de freeCodeCamp.",
+        image:"../Style/images/FreeCodeCamp.JPG",
+        url: "https://alex-beltran97.github.io/Imitacion-Inicio-freeCodeCamp/"
+    },
+    {
+        name:"Calculadora para principiante.",
+        Description:"Esta calculadora solo admite sumas basicas de una cifra (por el momento).",
+        image:"../Style/images/Calculadora basica.JPG",
+        url: "https://alex-beltran97.github.io/calculadora/"
+    },
+    {
+        name:"Landing page básica.",
+        Description:"Aquí podras observar el diseño básico de una landing page con su repectiva semantica.",
+        image:"../Style/images/Landing page basica.JPG",
+        url: "https://alex-beltran97.github.io/pagina_prueba/"
+    },
+
 ];
 
 
