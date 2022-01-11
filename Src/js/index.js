@@ -3,7 +3,7 @@ const exitProjects = document.querySelector(".exit-menu");
 const menuProjects = document.querySelector(".menu_proyectos");
 const  exit = document.querySelector(".exit-menu")
 
-import {pages} from "./data.js";
+import {pages} from "../js/data.js";
 
 pages.map(item=>{
     const ulItem = document.createElement("ul");
