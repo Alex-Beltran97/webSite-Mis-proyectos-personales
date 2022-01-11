@@ -37,7 +37,7 @@ export const pages = [
     },
     {
         name:"Calculadora para principiante.",
-        Description:"Esta calculadora solo admite sumas basicas de una cifra (por el momento).",
+        Description:"Aquí encontraras el diseño de ua calculadora totalmente funcional.",
         image:"../Style/images/Calculadora basica.JPG",
         url: "https://alex-beltran97.github.io/calculadora/"
     },
