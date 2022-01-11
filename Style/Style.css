@@ -197,7 +197,7 @@ footer div p{
         grid-template-columns: repeat(2,1fr);
         overflow-y: scroll;
     }
-    @media (max-width:400px){
+    @media (max-width:500px){
         .menu_proyectos{
             width: 75%;
             height: 300px;
