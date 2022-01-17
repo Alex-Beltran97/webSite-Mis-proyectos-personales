@@ -65,6 +65,12 @@ export const pages = [
         image:"https://scontent.fbog4-2.fna.fbcdn.net/v/t39.30808-6/271027867_1361588547593413_4904776658828601409_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=TfYI7ZNjJ74AX-E6Mn1&_nc_ht=scontent.fbog4-2.fna&oh=00_AT8Kz95HqaAkkokdHHgp7O3r6cCKy7BhiMQwJNdeMBqhUQ&oe=61E3777D",
         url: "https://alex-beltran97.github.io/pagina-hecha-para-parejas/"
     },
+    {
+        name:"Ejercicios de JavaScript (aún en construcción).",
+        Description:"Aquí podras encontrar una serie de ejercicios practicos de JavaScript para poner en practica y aprender más.",
+        image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+        url: "https://alex-beltran97.github.io/Ejercicios-de-JavaScript/"
+    },
 
 ];
 
