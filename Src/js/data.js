@@ -38,7 +38,7 @@ export const pages = [
     {
         name:"Calculadora para principiante.",
         Description:"Aquí encontraras el diseño de ua calculadora totalmente funcional.",
-        image:"https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/269940640_1361588407593427_5999031820385004573_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=2IQc2S4_GNYAX9eHf9Y&_nc_ht=scontent.fbog4-1.fna&oh=00_AT9MHNXrVwmHa6g4imx3SOOYNnbpt4ujltj6I3fxNO1VWg&oe=61EA887B";
+        image:"https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/269940640_1361588407593427_5999031820385004573_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=730e14&_nc_ohc=2IQc2S4_GNYAX9eHf9Y&_nc_ht=scontent.fbog4-1.fna&oh=00_AT9MHNXrVwmHa6g4imx3SOOYNnbpt4ujltj6I3fxNO1VWg&oe=61EA887B",
         url: "https://alex-beltran97.github.io/calculadora/"
     },
     {
