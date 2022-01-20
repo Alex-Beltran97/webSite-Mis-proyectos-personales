@@ -6,13 +6,21 @@
 
 body{
     font-family: Helvetica;
+    background-color: var(--dark);
+}
+
+:root{
+    --dark:#272823;
+    --pink:#f62f74;
+    --blue:#6bd9ee;
+    --green:#a7e040;
 }
 
 main{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image:url(https://pbs.twimg.com/media/D0arL31WoAEwVR4.jpg);
+    background-image:url(https://image.jimcdn.com/app/cms/image/transf/none/path/sd94b386ff0e9728d/backgroundarea/icbde3e5323ecc942/version/1525662379/image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,13 +28,14 @@ main{
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #f7df1e;
-    border-bottom: 2px solid lightgray;
+    background-color: var(--green);
+    box-shadow: 3px 3px 15px var(--blue);
 }
 
 
 .presentationText{
-    color: white;
+    color: var(--blue);
+    font-size: 18px;
 }
 
 .header-left{
@@ -58,8 +67,8 @@ header {
 .list-item:hover{
     width: auto;
     height: 90%;
-    background-color: black;
-    color: #f7df1e;
+    background-color: var(--dark);
+    color: var(--pink);
     font-weight: bold;
     display: grid;
     place-content: center;
@@ -74,8 +83,8 @@ header {
 }
 
 .header-rigth a:hover{
-    background-color: black;
-    color: #f7df1e;
+    background-color: var(--dark);
+    color: var(--blue);
     padding: 30px 10px;
     border-radius: 10px ;
 }
@@ -88,7 +97,7 @@ header {
     top: 18%;
     left: 18%;
     border-radius: 15px;
-    box-shadow: 1px 1px 15px #f7df1e;
+    box-shadow: 1px 1px 15px var(--blue);
     display: grid;
     grid-template-columns: repeat(auto-fill,200px);
     overflow-y: scroll;
@@ -109,10 +118,20 @@ header {
     border-radius: 15px;
     object-fit: cover;
     margin: 10px;
+    opacity: 0.5;
+}
+.menu_proyectos img:hover {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin: 10px;
+    opacity: 100;
 }
 
 .menu_proyectos a {
-    color:#f7df1e;
+    color:var(--green);
     text-decoration: none;
     list-style: none;
 
@@ -125,8 +144,8 @@ header {
 
 
 .exit-menu{
-    color:#f7df1e;
-    border: 3px solid #f7df1e;
+    color:var(--pink);
+    border: 3px solid var(--pink);
     background-color: black;
     width: 30px;
     height: 30px;
