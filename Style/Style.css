@@ -92,7 +92,7 @@ header {
 .menu_proyectos{
     width: 64%;
     height: 400px;
-    background-color: black;
+    background-color: var(--dark);
     position: absolute;
     top: 18%;
     left: 18%;
